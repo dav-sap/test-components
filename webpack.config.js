@@ -6,6 +6,7 @@ const WebpackBar = require('webpackbar');
 module.exports = {
 	entry: './src/index.js',
 	externals: [nodeExternals()],
+	mode: 'production',
 	output: {
 		filename: 'index.js',
 		path: path.resolve(__dirname, 'dist'),

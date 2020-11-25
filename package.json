@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook",
-    "build": "webpack -- mode production"
+    "build": "webpack --mode production"
   },
   "author": "david saper",
   "license": "ISC",
@@ -46,6 +46,7 @@
     "style-loader": "^1.3.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "webpack-node-externals": "^2.5.2"
+    "webpack-node-externals": "^2.5.2",
+    "webpackbar": "^5.0.0-3"
   }
 }
