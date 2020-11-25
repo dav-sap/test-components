@@ -1,2 +1,2 @@
-const { Button } = './components/Button';
+const Button = './components/Button/button';
 export { Button }
